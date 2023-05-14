@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: purple;
+}
+
+#app {
+  background-color: #fff;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+#time {
+  text-align: center;
+  padding: 1.3rem 0;
+}
+
+#time #value {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+
+/* FORMULARIO */
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+button,
+input[type="submit"] {
+  border: none;
+  background-color: #003366;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* TAREAS */
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.2rem;
+  gap: 10px;
+  align-items: center;
+}
+
+.task .completed {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.done {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: #17b466;
+  color: #fff;
+  border-radius: 5px;
+}
